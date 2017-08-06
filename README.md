@@ -6,7 +6,7 @@ https://ezprice.com.tw/
 2. 頁面元件無法重複使用
 
 **解決方法：**
-1. 不使用 bootstrap 整套框架，取用 bootstrap grid 的部分使用即可
+1. 不使用 bootstrap 整套框架，取用 bootstrap grid 的部分使用
 2. css用 scss 好維護：
 [scss 結構](/sass/create.scss)，並將css壓縮
 3. 制定各頁面共通元件，並撰寫 guideline 文件:
