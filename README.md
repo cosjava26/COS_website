@@ -1,5 +1,8 @@
 # EZprice 比價網 
-https://ezprice.com.tw/
+https://cosjava26.github.io/COS_website/index.html
+
+**改版目的：**
+一個網站，同時也經營大小網(二個獨立的網站)，而一直隨著功能的外加，程式碼一直增加而難以維護，所以，開啟了整個網站的重構計劃
 
 **遇到問題：**
 1. 網站重構，速度過慢
