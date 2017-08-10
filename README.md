@@ -1,15 +1,22 @@
 # COS_website
 https://cosjava26.github.io/COS_website/index.html
 
-**改版目的：**
-這個網站同時包含電腦版及手機版(獨立的兩個網站)，而隨著網站功能不斷的增加，程式碼及網站上的元件也一直增加，互相不能共用，導致難以維護，所以，開啟了整個網站的重構計劃。
+## 改版過程：
+<p align="center">
+  <img src="http://i.imgur.com/KajoSVQ.png">
+</p> 
 
-以下分幾項來進行優化：
+### Step1.接收需求，發現問題：
+這個網站同時包含電腦版及手機版(獨立的兩個網站)，而隨著網站功能不斷的增加，程式碼及網站上的元件也一直增加，互相不能共用，導致難以維護，所以，開啟了整個網站的重構計劃。
+<br />
+
+### Step2.解決方案：
 1. 元件的共用性使用(大小網獨立情況）
 2. 減少 bootstrap lib 的使用( bootstrap 的肥大減量使用，改自刻共用元件..等等) 
 3. 制定設計 guideline
+<br />
 
-**解決方法：**
+### Step3.解決問題：
 1. 不使用 bootstrap 整套框架，取用 bootstrap grid 的部分使用
 2. css用 scss 好維護：
 [scss 結構](/sass/create.scss)，並將css壓縮
