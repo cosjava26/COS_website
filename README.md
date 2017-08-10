@@ -9,7 +9,7 @@ https://cosjava26.github.io/COS_website/index.html
 ### Step1.接收需求，發現問題：
 1. 這個網站同時包含電腦版及手機版(獨立的兩個網站)，而隨著網站功能不斷的增加，程式碼及網站上的元件也一直增加，互相不能共用，導致難以維護，所以，開啟了整個網站的重構計劃。
 
-2. 
+2. 當使用者搜尋完商品後，結果頁面資訊過於繁雜，不好比價。
 <br />
 
 ### Step2.解決方案：
@@ -20,11 +20,12 @@ PM整理以上需求，並討論相關解決方案，以下列點說明：
 2. 減少 bootstrap lib 的使用( bootstrap 的肥大減量使用，改自刻共用元件..等等) 
 
 3. 制定設計 guideline
+
 <br />
 
 ### Step3.解決問題：
 
-1. 製作主要頁面的 wireframe，並找使用者進行易用性測試。
+1. 製作Wireframe與可交互之Prototype並測試易用性。
 
 2. 不使用 bootstrap 整套框架，取用 bootstrap grid 的部分使用
 
